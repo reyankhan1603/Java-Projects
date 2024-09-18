@@ -44,7 +44,7 @@ class SimpleDotCom{
     }
 }
 
-class Main {
+class Sink {
     public static void main(String[] args) {
         int numOfGuesses = 0;
         GameHelper helper = new GameHelper();
