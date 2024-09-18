@@ -1,5 +1,9 @@
-import java.io.*;
+/*This is a simplified sink dot com project that is based on gui. Here you have an array of length 7.
+ You have to guess the cell number in which the dot com is present. It you are correct the output will be "hit"
+ if you are wrong you get a miss, if you hit all the cells you get a "kill" and the game is over displaying the
+ number of hits it look you to kill the dot com. */
 
+import java.io.*;
 class GameHelper{
     public String getUserInput(String prompt){
         String inputLine = null;
